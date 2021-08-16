@@ -1,5 +1,5 @@
 import Button from './button';
-import Text from './Text';
+import Text from "./text";
 export { Button, Text };
 declare const _default: {
     Button: typeof Button;

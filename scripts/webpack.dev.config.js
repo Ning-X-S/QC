@@ -27,10 +27,10 @@ const webpackConfigDev = {
     hot: true,
     open: true,
     host: 'localhost',
-    port: 8080,
+    port: 3000,
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js', '.jsx', ".d.ts", ".d"]
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './public/index.html', }),

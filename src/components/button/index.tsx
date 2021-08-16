@@ -30,7 +30,7 @@ function insertSpace(child:  React.ReactChild, needInserted: boolean) {
 }
 
 
-function Buttun(props) {
+function Buttun(props: any) {
   console.log(props)
   const iconType = null
   const iconNode = null;
