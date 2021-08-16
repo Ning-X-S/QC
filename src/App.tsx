@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 // import Buttun from './components/button';
-import { Button } from 'higgs';
-import { Text } from 'higgs';
-import * as QC from 'higgs';
+import { Button } from 'nxs-ui';
+import { Text } from 'nxs-ui';
+import * as QC from 'nxs-ui';
 
 function App() {
   console.log(Button)
