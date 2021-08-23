@@ -9,4 +9,6 @@
   background: #1890ff;
   color: #fff;
   cursor: pointer;
+  box-sizing: border-box;
+  width: 80px;
 }

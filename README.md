@@ -12,7 +12,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-### `打包组件库`
+### `打包组件库（由于入口文件没有输出，需要修改tsconfig.json配置，noEmit改为false即可）`
 
 ```bash
   npm run build

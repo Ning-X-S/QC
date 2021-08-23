@@ -15,11 +15,13 @@ const webpackConfigProd = {
   mode: 'production',
 
   entry: {
-    app: [resolve('../src/components/index.tsx')],
+    index: [resolve('../src/components/index.tsx')],
+    button: [resolve('../src/components/button/index.tsx')],
+    text: [resolve('../src/components/text/index.tsx')]
   },
 
   output: {
-    filename: 'index.js',
+    filename: '[name].js',
     path: resolve('../lib'),
     libraryTarget: 'commonjs2'
   },
