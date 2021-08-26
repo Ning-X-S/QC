@@ -3,6 +3,13 @@
 }
 header {
   height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
 }
 .main-content {
   font-size: 12px;
@@ -11,6 +18,10 @@ header {
   flex-direction: row;
   padding: 20px;
   justify-content: space-between;
+}
+.edit-component-style-box {
+  width: 300px;
+  margin-top: 50px;
 }
 .main-content .ant-btn {
   font-size: 12px;

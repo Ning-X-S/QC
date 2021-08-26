@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/consistent-type-assertions */
 export interface componentItem {
   name: string,
   componentName: string,
@@ -6,20 +7,24 @@ export interface componentItem {
   componentProps: { [key: string] : string }
 }
 
+export const componentItemTemp = <componentItem>{};
+
 export const componentsList: Array<componentItem> = [
   {
     name: '按钮',
-    content: '按钮1',
+    content: '按钮',
     componentName: 'Button',
     componentStyle: {},
     componentProps: {}
   },
   {
-    name: '按钮2',
-    content: '按钮2',
+    name: '文本',
+    content: '',
     componentName: 'Text',
     componentStyle: {},
-    componentProps: {}
+    componentProps: {
+      text: '文本'
+    }
   },
   {
     name: '图片',
